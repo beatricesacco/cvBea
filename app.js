@@ -12,4 +12,6 @@ app.get("/", (req, res) => {
   res.send("Ok");
 });
 
-app.listen(port, console.log("Server in ascolto"));
+app.listen(port, () => {
+  console.log("Server in ascolto sulla porta" + port);
+});
