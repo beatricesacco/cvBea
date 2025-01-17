@@ -6,9 +6,9 @@ const port = process.env.PORT || 3000;
 
 
 app.get("/", (req, res) => {
-  res.send("Ok");
+  console.log("Richiesta ricevuta alla rotta radice");
 });
 
-app.listen(port, () => {
-  console.log("Server in ascolto sulla porta " + port);
+app.listen(3000, () => {
+  console.log("Web server in ascolto sulla porta 3000");
 });
