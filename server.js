@@ -1,19 +1,8 @@
-import express from "express";
-import helmet from "helmet";
-import morgan from "morgan";
-
+const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
-
-console.log(process.env.NODE_ENV);
-
-app.use(helmet());
-app.use(morgan("combined"));
 
 app.get("/", (req, res) => {
-  res.send("Ok");
+  console.log("Richiesta ricevuta alla rotta radice");
 });
 
-app.listen(port, () => {
-  console.log("Server in ascolto sulla porta " + port);
-});
+app.listen(3000, () => console.log("Web server in ascolto sulla porta 3000"));
