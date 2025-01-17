@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+function loggedInMiddleware(req, res, next) {
+  let isLogged = true;
+}
+
 app.get("/", (req, res) => {
   res.send("<h1>Benvenuto nel mio sito curriculum!</h1>");
 });
