@@ -3,13 +3,31 @@ const app = express();
 
 function loggedInMiddleware(req, res, next) {
   let isLogged = true;
+  if (isLogged) {
+    next();
+  } else {
+    res.send("Non sei loggato! Effettua il login per la pagina profilo");
+  }
+}
+
+function verifyAccessMid(req, res, next) {
+  let verifyAccess = false;
+  if (verifyAccess) {
+    next();
+  } else {
+    res.send("Accesso negato");
+  }
 }
 
 app.get("/", (req, res) => {
   res.send("<h1>Benvenuto nel mio sito curriculum!</h1>");
 });
 
-app.get("/profilo", (req, res) => {
+app.post("/login", verifyAccessMid, (req, res) => {
+  res.send("<h1>Login pagina</h1>");
+});
+
+app.get("/profilo", loggedInMiddleware, (req, res) => {
   res.send("<h1>Questa è la pagina del mio profilo</h1>");
 });
 
