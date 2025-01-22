@@ -1,5 +1,9 @@
 const express = require("express");
 const app = express();
+const Connect = require("./backend/connect.js");
+
+const connection = new Connect();
+connection.get();
 
 function loggedInMiddleware(req, res, next) {
   let isLogged = true;
