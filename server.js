@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   res.send("<h1>Benvenuto nel mio sito curriculum!</h1>");
 });
 
-app.post("/login", verifyAccessMid, (req, res) => {
+app.get("/login", verifyAccessMid, (req, res) => {
   res.send("<h1>Login pagina</h1>");
 });
 
