@@ -20,6 +20,7 @@ const Competenze = () => {
     "Git & GitHub",
     "Python",
     "Tableau",
+    "Inglese B2",
   ];
   return (
     <div>
