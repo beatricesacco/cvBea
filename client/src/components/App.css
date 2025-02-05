@@ -1,0 +1,52 @@
+/*navbar stile*/
+a.navbar-brand {
+  color: white;
+  text-decoration-color: white;
+}
+.nav-link-small {
+  font-size: 0.8rem;
+}
+.img-fluid {
+  height: auto;
+  max-width: 40%;
+}
+
+@media (max-width: 576px) {
+  .img-fluid {
+    width: 90%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .img-fluid {
+    width: 75%;
+  }
+}
+
+@media (min-width: 769px) {
+  .img-fluid {
+    width: 40%;
+  }
+}
+.border-purple {
+  border: 2px solid #8b008b; /* Imposta il colore del bordo a viola */
+  border-radius: 5px; /* Aggiunge un leggero arrotondamento agli angoli */
+  padding: 20px; /* Aggiunge un padding interno per migliorare l'aspetto */
+}
+h3 {
+  color: violet;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 5px 0;
+}
+/*stile competenze*/
+.h2 {
+  color: #8b008b;
+}
+.list-group-item-hot-pink {
+  color: #ff0066;
+}
