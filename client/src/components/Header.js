@@ -19,6 +19,22 @@ const Header = () => {
             />
             Beatrice Sacco
           </a>
+          <div className="ms-auto">
+            <a
+              href="login"
+              className="btn btn-primary btn-custom"
+              style={{
+                fontSize: "0.9rem",
+                padding: "1px",
+                margin: "5px",
+                color: "#fff",
+                background: "#8b008b",
+                borderColor: "rgba(0,0,0,0.65)",
+              }}
+            >
+              Login
+            </a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,7 +47,7 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav" ms-auto="true">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a
                   className="nav-link text-white"
@@ -57,15 +73,6 @@ const Header = () => {
                   style={{ fontSize: "0.9rem" }}
                 >
                   Contatti
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link text-white"
-                  href="login"
-                  style={{ fontSize: "0.9rem" }}
-                >
-                  Login
                 </a>
               </li>
             </ul>

@@ -50,3 +50,21 @@ li {
 .list-group-item-hot-pink {
   color: #ff0066;
 }
+.border-border-purple {
+  border: 2px solid #8b008b;
+}
+.custom-email-link {
+  color: #cb3fcb;
+  text-decoration: none;
+}
+.custom-link {
+  color: #cb3fcb;
+  text-decoration: none;
+}
+.btn-custom {
+  transition: background 0.3s, border-color 0.3s; /* Aggiunge una transizione fluida */
+}
+.btn-custom:hover {
+  background: #ff0066;
+  border-color: #fff;
+}

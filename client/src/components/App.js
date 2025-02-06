@@ -13,10 +13,10 @@ function App() {
   return (
     <div>
       <Header />
+      <Login />
       <Profilo />
       <Competenze />
       <Contatti />
-      <Login />
       <Footer />
     </div>
   );
