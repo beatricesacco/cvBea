@@ -24,14 +24,16 @@ const Competenze = () => {
     "Tableau",
     "Inglese B2",
   ];
+  const showHeader = true;
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 bg-custom">
+      {showHeader && <h3 style={{ color: "#8b008b" }}>Competenze</h3>}
       <div className="row border-purple">
         <div className="col-md-6 mb-4  border-purple">
           <h3 style={{ color: "#8b008b" }}>Hard Skills</h3>
           <ul className="list-group">
             {hardSkills.map((skill, index) => (
-              <li key={index} className="list-group-item-hot-pink">
+              <li key={index} className="list-group-item-color">
                 {skill}
               </li>
             ))}
@@ -39,7 +41,7 @@ const Competenze = () => {
         </div>
         <div className="col-md-6 mb-4  border-purple ">
           <h3 style={{ color: "#8b008b" }}>Soft Skills</h3>
-          <ul className="list-group-item-hot-pink">
+          <ul className="list-group-item-color">
             {softSkills.map((skill, index) => (
               <li key={index} className="list-group-item">
                 {skill}

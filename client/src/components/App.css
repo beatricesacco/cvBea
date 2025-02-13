@@ -47,18 +47,18 @@ li {
 .h2 {
   color: #8b008b;
 }
-.list-group-item-hot-pink {
-  color: #ff0066;
+.list-group-item-color {
+  color: #ffe4b5;
 }
 .border-border-purple {
   border: 2px solid #8b008b;
 }
 .custom-email-link {
-  color: #cb3fcb;
+  color: #ff0066;
   text-decoration: none;
 }
 .custom-link {
-  color: #cb3fcb;
+  color: #ff0066;
   text-decoration: none;
 }
 .btn-custom {
@@ -67,4 +67,17 @@ li {
 .btn-custom:hover {
   background: #ff0066;
   border-color: #fff;
+}
+.h1 {
+  color: rgb(239, 241, 232);
+}
+.bg-custom {
+  background-color: #ee82ee; /* Colore di sfondo personalizzato */
+  padding: 7px; /* Padding per dare spazio interno */
+  border-radius: 3px; /* Angoli arrotondati */
+}
+.background-contatti {
+  background-color: #ee82ee; /* Colore di sfondo chiaro */
+  padding: 20px; /* Padding per dare spazio interno */
+  border-radius: 10px; /* Angoli arrotondati */
 }
