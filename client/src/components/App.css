@@ -1,7 +1,7 @@
 /*navbar stile*/
 a.navbar-brand {
-  color: white;
-  text-decoration-color: white;
+  color: #ffe4b5;
+  text-decoration-color: #ffe4b5;
 }
 .nav-link-small {
   font-size: 0.8rem;

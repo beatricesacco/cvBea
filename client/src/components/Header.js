@@ -34,7 +34,7 @@ const Header = () => {
                 fontSize: "0.9rem",
                 padding: "1px",
                 margin: "5px",
-                color: "#fff",
+                color: "#ffe4b5",
                 background: "#8b008b",
                 borderColor: "rgba(0,0,0,0.65)",
               }}
@@ -57,27 +57,39 @@ const Header = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link
-                  className="nav-link text-white"
+                  className="nav-link"
                   to="profilo"
-                  style={{ fontSize: "0.8rem", paddingRight: "auto" }}
+                  style={{
+                    fontSize: "1.3rem",
+                    paddingRight: "auto",
+                    color: "#ffe4b5",
+                  }}
                 >
                   Profilo
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link text-white"
+                  className="nav-link"
                   to="/competenze"
-                  style={{ fontSize: "0.9rem" }}
+                  style={{
+                    fontSize: "1.2rem",
+                    color: "#ffe4b5",
+                    paddingTop: "0",
+                  }}
                 >
                   Competenze
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link text-white"
+                  className="nav-link"
                   to="/contatti"
-                  style={{ fontSize: "0.9rem" }}
+                  style={{
+                    fontSize: "1.2rem",
+                    color: "#ffe4b5",
+                    padding: "auto",
+                  }}
                 >
                   Contatti
                 </Link>
