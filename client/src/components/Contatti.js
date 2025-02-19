@@ -15,29 +15,29 @@ const Contatti = () => {
           <div className=" background-contatti border-border-purple">
             <h2 style={{ color: "#8b008b" }}>Contatti</h2>
             <ul className="list-unstyled">
-              <li style={{ color: "#ffe4b5" }}>
+              <li style={{ color: "#fff" }}>
                 <strong style={{ color: "#8b008b" }}>Nome:</strong> {nome}
               </li>
-              <li style={{ color: "#ffe4b5" }}>
+              <li style={{ color: "#fff" }}>
                 <strong style={{ color: "#8b008b" }}>Cognome:</strong> {cognome}
               </li>
-              <li style={{ color: "#ffe4b5" }}>
+              <li style={{ color: "#fff" }}>
                 <strong style={{ color: "#8b008b" }}>Email:</strong>{" "}
                 <a href={`mailto:${email}`} className="custom-email-link">
                   {email}
                 </a>
               </li>
-              <li style={{ color: "#ffe4b5" }}>
+              <li style={{ color: "#f3e8ef" }}>
                 <strong style={{ color: "#8b008b" }}>Indirizzo:</strong>{" "}
                 {indirizzo}
               </li>
-              <li style={{ color: "#ffe4b5" }}>
+              <li style={{ color: "#fff" }}>
                 <strong style={{ color: "#8b008b" }}>
                   Numero di Telefono:
                 </strong>{" "}
                 {numeroTelefono}
               </li>
-              <li style={{ color: "#ff0066" }}>
+              <li style={{ color: "#f8c337" }}>
                 <strong style={{ color: "#8b008b" }}>LinkedIn:</strong>{" "}
                 <a
                   href={linkedInUrl}

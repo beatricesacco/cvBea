@@ -3,6 +3,9 @@ a.navbar-brand {
   color: #ffe4b5;
   text-decoration-color: #ffe4b5;
 }
+a.navbar-brand:hover {
+  color: #fff;
+}
 .nav-link-small {
   font-size: 0.8rem;
 }
@@ -48,17 +51,17 @@ li {
   color: #8b008b;
 }
 .list-group-item-color {
-  color: #ffe4b5;
+  color: #6d28d2;
 }
 .border-border-purple {
-  border: 2px solid #8b008b;
+  border: 2px solid #6d28d2;
 }
 .custom-email-link {
-  color: #ff0066;
+  color: #6d28d2;
   text-decoration: none;
 }
 .custom-link {
-  color: #ff0066;
+  color: #6d28d2;
   text-decoration: none;
 }
 .btn-custom {

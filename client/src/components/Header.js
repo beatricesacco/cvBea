@@ -60,8 +60,8 @@ const Header = () => {
                   className="nav-link"
                   to="profilo"
                   style={{
-                    fontSize: "1.3rem",
-                    paddingRight: "auto",
+                    fontSize: "1.1rem",
+                    paddingRight: "0",
                     color: "#ffe4b5",
                   }}
                 >
@@ -73,9 +73,9 @@ const Header = () => {
                   className="nav-link"
                   to="/competenze"
                   style={{
-                    fontSize: "1.2rem",
+                    fontSize: "1.1rem",
                     color: "#ffe4b5",
-                    paddingTop: "0",
+                    padding: "0",
                   }}
                 >
                   Competenze
@@ -86,13 +86,26 @@ const Header = () => {
                   className="nav-link"
                   to="/contatti"
                   style={{
-                    fontSize: "1.2rem",
+                    fontSize: "1.1rem",
                     color: "#ffe4b5",
-                    padding: "auto",
+                    paddingRight: "0",
                   }}
                 >
                   Contatti
                 </Link>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="/articoli"
+                    style={{
+                      fontSize: "1.1rem",
+                      color: "#ffe4b5",
+                      padding: "0",
+                    }}
+                  >
+                    Articoli
+                  </Link>
+                </li>
               </li>
             </ul>
           </div>
@@ -101,7 +114,7 @@ const Header = () => {
       <div
         style={{
           textAlign: "center",
-          margin: "40px",
+          margin: "30px",
           color: "rgb(239, 241, 232)",
         }}
       >

@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Profilo from "./Profilo";
 import Competenze from "./Competenze";
+import Articoli from "./Articoli";
 import Login from "./Login";
 import Contatti from "./Contatti";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -31,6 +32,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/profilo" element={<Profilo />} />
           <Route path="/competenze" element={<Competenze />} />
+          <Route path="/articoli" element={<Articoli />} />
           <Route path="/contatti" element={<Contatti />} />
         </Routes>
         <Footer />
