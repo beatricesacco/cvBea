@@ -93,19 +93,19 @@ const Header = () => {
                 >
                   Contatti
                 </Link>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    to="/articoli"
-                    style={{
-                      fontSize: "1.1rem",
-                      color: "#ffe4b5",
-                      padding: "0",
-                    }}
-                  >
-                    Articoli
-                  </Link>
-                </li>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/articoli"
+                  style={{
+                    fontSize: "1.1rem",
+                    color: "#ffe4b5",
+                    padding: "0",
+                  }}
+                >
+                  Articoli
+                </Link>
               </li>
             </ul>
           </div>

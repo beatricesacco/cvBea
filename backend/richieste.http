@@ -4,7 +4,7 @@ GET http://localhost:3000
 
 ###
 
-GET  http://localhost:3000/login
+GET   http://localhost:3000/login
 ###
 GET http://localhost:3000/profilo 
 
@@ -15,3 +15,14 @@ GET http://localhost:3000/competenze
 ###
 
 GET http://localhost:3000/contatti
+
+###
+POST http://localhost:3001/articoli
+###
+
+###
+
+
+
+###
+
